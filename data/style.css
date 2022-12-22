@@ -1,0 +1,40 @@
+:root {
+    --black: #333333;
+    --white: #eeeeee;
+}
+
+body {
+    background-color: var(--black);
+    color: var(--white);
+
+    font-family: monospace;
+    letter-spacing: 0.2em;
+}
+
+main {
+    padding: 2em;
+}
+
+a {
+    color: var(--white);
+}
+
+h1 {
+    font-size: 42px;
+
+    margin: 0;
+}
+
+#container {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+input {
+    padding: 0.5em;
+
+    background-color: var(--white);
+    color: var(--black);
+
+    border: none;
+}
